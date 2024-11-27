@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <title></title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/fontello.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div id="main">
+        <div id="top">
+    <div id="ltop">Pomoc i kontakt <i class="demo-icon icon-phone"></i></div><div id="stop">Darmowa dostawa i zwrot</div><div id="ptop">50 dni na darmowy zwrot</div>
+    <div style="clear:both"></div>
+        </div>
+        <div id="logo">
+    <div id="logol">ZDJ LOGO</div><div id="koszyk"><a  href="logowanie.html"><i class="demo-icon icon-user"></a></i> <i class="demo-icon icon-basket"></i></div>
+    <div style="clear:both"></div>
+        </div>
+        <div class="nav">
+        <ol>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="#">OPCJA2</a>
+                <ul>
+                    <li><a href="#">PODOP</a></li>
+                    <li><a href="#">PODOP</a></li>
+                    <li><a href="#">PODOP</a></li>
+                    <li><a href="#">PODOP</a></li>
+                    <li><a href="#">PODOP</a></li>
+                </ul>
+            </li>
+            <li><a href="#">OPCJA3</a></li>
+            <li><a href="#">OPCJA4</a></li>
+            <li><a href="#">Promocje%</a></li>
+            <li><a href="#">OPCJA6</a></li>
+
+        </ol>   
+        </div>
+        <div id="reklama">
+    <div id="rekla">REKLAMA</div>
+        </div>
+        <div id="zawartość">
+    <div id="zawa">ZAWARTOŚĆ</div>
+        </div>
+        <div id="stopka">
+           Wszelkie prawa zastrzeżone &copy 
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+       <script>  
+      $(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+    </script>
+    </body>
+</html>

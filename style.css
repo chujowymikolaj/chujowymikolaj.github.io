@@ -1,0 +1,221 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+#main
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top
+{
+  width: 100%;
+  background-color: rgb(91, 190, 203);
+  height: auto;
+  font-size: 14px;
+}
+#ltop
+{
+  float: left;
+  margin-left: 190px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#stop
+{
+  float: left;  
+  margin-left: 420px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#ptop
+{
+  float: left;
+  margin-left: 350px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#logo
+{
+  width: 100%;
+  background-color: rgb(106, 215, 229);  
+  height: auto;
+}
+#logol
+{
+  float: left;
+  font-size: 30px;
+  margin-left: 750px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#koszyk
+{
+  float: left;
+  margin-left: 400px;
+  padding-top: 23px;
+  padding-bottom: 10px;
+}
+#koszyk > a
+{
+  text-decoration: none;
+  color:black;
+}
+.nav
+{
+  width: 100%;
+  background-color: rgb(237, 82, 82);   
+  margin: 0; 
+  padding: 10px 0;
+  text-align: center;
+}
+ol
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 35px;
+  line-height: 200%;
+  font-size: 18px;
+  display: inline-block;
+}
+ol a
+{
+  color:white;
+  text-decoration: none;
+  display: block;
+}
+ol > li
+{
+  float: left;
+  width: 150px;
+  height: 40px;
+  border-right: 2px dashed rgb(129, 8, 8);
+  padding-top:5px ;
+}
+ol > li:first-child
+{
+  border-left: 2px dashed rgb(129, 8, 8);
+}
+ol > li:hover
+{
+  background-color: rgb(238, 102, 102);
+}
+ol > li:hover a
+{
+  color:aquamarine;
+}
+ol > li > ul
+{
+  list-style-type: none;
+  
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  display: none;
+}
+ol > li:hover > ul
+{
+  display: block;
+}
+ol > li > ul > li
+{
+  background-color: rgb(237, 82, 82);
+  position: relative;
+  z-index: 100;
+  border-top: 2px dashed rgb(129, 8, 8);
+}
+ol > li > ul > li:hover
+{
+  background-color: rgb(238, 102, 102);
+}
+ol > li > ul > li:hover > a
+{
+  color:rgb(0, 0, 0);
+}
+#reklama
+{
+  width: 100%;
+  background-color: rgb(76, 0, 255);  
+}
+#rekla
+{
+    margin-left: 550px;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#zawartość
+{
+  width: 100%;
+  background-color: rgb(179, 255, 0);  
+}
+#zawa
+{
+    margin-left: 500px;
+    font-size: 100px;
+    padding-top: 600px;
+    padding-bottom: 600px;  
+}
+
+#stopka
+{
+  width: 100%;
+  background-color: rgb(73, 70, 53);  
+  text-align: center;
+  font-size: 20px;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+#logowanie
+{
+  background-color: rgb(106, 215, 229);
+  height: 750px;
+  margin: 0;
+  padding: 0;
+}
+#logowaniep
+{
+  background-color: antiquewhite;
+  width: 400px;
+  height:380px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 610px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input[type=text],
+input[type=password]
+{
+  margin-top:36px;
+  padding: 10px;
+  width: 350px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+input[type=submit]
+{
+  width: 350px;
+  height: 50px;
+  margin-top:36px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+input[type=submit]:hover
+{
+  background-color: rgb(33, 166, 166);
+}
